@@ -1,0 +1,82 @@
+WinVexed temporary help file  Version 0.7.0 11/30/2020
+
+Quick summary:
+
+When the Vexed for Windows first starts there is an internal 
+puzzle pack used which is basically Classic Level with one 
+added puzzle.  Load puzzle packs with File-Open.  To start
+Vexed for Windows with the last used puzzle pack click 
+Settings-On Start Load Last, when checked it is active.
+
+How to play
+
+All user moves are horizontal and in the same row.
+
+Left click down on a block, while holding down drag the mouse to 
+ where you want the block to end up, then release the mouse to let 
+ the block move.  The block does not move while dragging, it moves 
+ when the mouse is released.
+ 
+OR
+
+Click on a block and release the mouse, then click on a destination
+ and release the mouse, then the block will move.
+ 
+Valid Moves
+Playable blocks can only move into empty spaces in the same row
+When a playable block moves over an empty space it falls down
+When two or more playable blocks of the same type end up touching
+ each other the blocks are evaporated.
+ 
+ 
+Show Me - click this to see how to solve a puzzle 
+ 
+Goal
+Remove all blocks within 'par' or less, shown at the top of the window.
+
+Enter a two (2) character puzzle number into the "Puzzle Number" box to jump
+to that puzzle.  Number less then 10 are entered as 05 for example.
+
+Puzzle Packs:
+Vexed for Windows plays the same puzzle packs as the original Vexed.
+A default puzzle pack 'Classic Level' is preloaded into the program
+so just starting the program you can immediately play.
+
+Other puzzle packs can be loaded from the Levels subdirectory under
+wherever you installed the program.  Level packs will be released 
+from time to time....
+
+--------------------------------------------
+Acknowledgements and attributions:
+
+I did not invent this wonderful logic & thinking ahead puzzle game.
+The original version 2.2 is on Sourceforge at http://vexed.sourceforge.net/.
+There are also other versions on Sourceforge and the WWW.
+
+Vexed for Windows is a 'cleanroom' code version of the original Palm Pilot
+ version.  All code and consequentially all errors are mine not the original
+ developers.  'Cleanroom' code means I did not refer to any developers code 
+ to write this windows version of Vexed.  However, I did reference one text 
+ file from the Sourceforge repository:
+ https://sourceforge.net/projects/vexed/,level_pack_file_format.txt 
+ to understand how the puzzles were encoded.  I also exchanged emails with 
+ Mr. Mark Ingebretson who graciously answered a few questions.  In that file 
+ is some javascript code for decoding the puzzles.  I used that as a basis 
+ for decoding in the windows version with modifications to remove regex usage,
+ and implement in C.
+
+Some Vexed history:
+Vexed 1.x source code by James McCombe
+Vexed 2.0 and higher was a team effort of multiple individuals 
+the "Vexed Development Team".  
+PalmPilot Vexed web page:  http://vexed.sourceforge.net/ 
+=============================================================
+Block set 4 (flowers) free icon source for flowers from 
+https://www.kindpng.com/free/flower-icon/
+=============================================================
+A file named level.c containing just decoded puzzles was used 
+with slight modification.  This file was from "Matt Schaeffer's Final Project"
+which is GPL'ed and on Sourceforge at: https://sourceforge.net/projects/vexed-gl/
+
+
+

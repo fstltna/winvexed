@@ -1,0 +1,36 @@
+12/08/2020 version 0.7.5.3
+ Fixed loadlast restart for internal level package
+
+12/07/2020 version 0.7.5.2
+ Fixed errant box on desktop due to early show window
+ 
+12/07/2020 version 0.7.5.1
+ Fixed notification when loading a completed puzzle pack.
+ Fixed minor issue using internal puzzle pack file notification
+ 
+12/03/2020 version 0.7.5
+ Added puzzle pack completion under Strict Play rules, and method to view
+ Tested all 49 puzzle packs, found one puzzle out of over 2940 that had a
+ play problem, implemented fix.
+ All puzzle packs are now available.
+ Updated the help file
+
+11/30/2020 version 0.7.0
+ Added Palm original block set as a nod to the original developer(s)
+ Added Right click on block to show those blocks ;)
+ Updated the help file
+
+11/29/2020 version 0.6.0
+ Added saved puzzle to restart where left off rather then beginning when using 'Load Last'
+ Increased undo capability from 3 to 15 as in original and shows # undo's available on the button
+ Added running display of Puzzle Pack 'PAR' sum and User Count sum on the status line
+ Added M (memory) and R (restore) feature to save a puzzle state  by clicking M and then 
+   anytime before puzzle completion clicking R will return to that state.
+ Added 'strict' play mode (no advance until you win the current puzzle)
+ Added 'Replay' to show all moves that have been made on the current puzzle
+ Fixed the 'hang' when accessing help and information files.
+ Add winvexed.chm help file
+ Reduced some internal memory requirements
+
+11/22/2020 version 0.5.0
+ Initial C version Beta release

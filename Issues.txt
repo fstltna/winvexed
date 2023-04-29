@@ -1,0 +1,43 @@
+Release Beta version 0.7.5
+
+Help file context sensitivity could be implemented
+Puzzle creator/editor to be implemented
+
+
+
+------------------------
+Initial Release Beta version 0.5.0
+
+version 0.5.0 Beta
+1) The program 'hangs' after a sequence 1st calling any of the help files
+   then immediately calling About - The Loaded Puzzle Pack feature. 
+   Weird, have not found connection - yet (DISABLED these until resolved)
+   Read the files in the application directory using notepad or your favorite editor, for now.
+
+2) Since this is a 'cleanroom' code version there is a small possibility that the block removal may
+   not be exactly the same.  So far only one such case has been found in all the testing.  The difference
+   is due to the sequencing of falling blocks. 
+
+   In the original Classic Level pack the puzzle "I am Walrus" is an example.  Under my code this puzzle 
+   can be solved in one move.  Column 6 row 5 move to Column 7 row 5.  However if you play this puzzle in
+   with the original implementation code this solution won't work.  You will be left with one block in the
+   far lower left.  
+
+   In my version you can slow the movement down to see the exact path and matches.
+
+   HOWEVER all solutions provided with the original puzzles work! :)
+
+
+Features to add after Beta version 0.5.0
+DONE	a) Help files needs to be completed,
+FIXED      and 'hang' resolved (1st priority)
+DONE	b) You can save and restart a puzzle & package but puzzle starts over,
+           add last puzzle state store and retrieval
+DONE	c) Add Total package 'PAR' and track user total 'moves' 
+DONE           1) add to ini? 
+DONE    d) Add M/R, memory to store a position to return to
+        
+Future planned features
+	a) Puzzle creator ;) Draw your own or enter one from elsewhere and play it,
+	   save it to your own level pack
+DONE	b) Increase Undo from 3 to the original 15
